@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <div id="close" class="fas fa-times"></div>
+
+            <a href="#" class="nav_item">home</a>
+            <a href="#" class="nav_item">about</a>
+            <a href="#" class="nav_item">menu</a>
+            <a href="#" class="nav_item">contact</a>
+        </nav>
+        <div id="menu" class="fas fa-bars"></div>
+    </header>
+    <section class="home">
+        <div class="content">
+            <h1 class="title">fresh <span>coffee</span> in the <span>morning</span> </h1>
+            <p class="description">Start your day the right way with a cup of our handcrafted coffee.</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="image">
+            <img src="images/cup.png" alt="" data-speed="-3" class="move">
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>Coffee House</h2>
+                <p>Serving the best handcrafted coffee to start your day right. Visit us and discover the taste of freshness!</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Coffee House | All Rights Reserved</p>
+        </div>
+    </footer>    
+</body>
+</html>
